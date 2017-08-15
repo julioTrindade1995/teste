@@ -5,10 +5,13 @@ using System.Web;
 
 namespace WebApplication2.Models
 {
-    public class Movie
+    public class Cds
     {
         public int Id { get; set; }
 
         public String nome { get; set; }
+
+       public String estilo { get; set; }
+
     }
 }
